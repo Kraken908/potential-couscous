@@ -11,6 +11,9 @@ echo killall bluetoothd >> /usr/sbin/automate
 echo 'killall sshd' >> /usr/sbin/automate
 echo 'killall anacron' >> /usr/sbin/automate
 echo 'killall gvfsd-fuse' >> /usr/sbin/automate 
+echo "killall /usr/libexec/gvfs-*' >> /usr/sbin/automate
+echo 'killall /usr/libexec/gvfsd*' >> /usr/sbin/automate
+echo 'killall /usr/libexec/gvfs*' >> /usr/sbin/automate
 echo 'modprobe -r uvcvideo' >> /usr/sbin/automate 
 echo 'killall /usr/bin/ssh-agent' >> /usr/sbin/automateecho 
 echo 'modprobe -r uvcvideo' >> /usr/sbin/automate
@@ -18,7 +21,6 @@ echo 'killall   /usr/bin/zsh' >> /usr/sbin/automate
 echo 'killall /usr/sbin/zsh' >> /usr/sbin/automate
 echo 'killall rtkit-daemon' >> /usr/sbin/automate 
 echo 'killall /usr/libexec/gvfsd-trash' >> /usr/sbin/automate
-
 echo 'rm -r /org/gtk/gvfs' >> /usr/sbin/automate
 chmod u+x /usr/sbin/automate 
 automate
