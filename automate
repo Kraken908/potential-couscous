@@ -11,7 +11,7 @@ echo 'killall bluetoothd >> /usr/sbin/automate
 echo 'killall sshd' >> /usr/sbin/automate
 echo 'killall anacron' >> /usr/sbin/automate
 echo 'killall gvfsd-fuse' >> /usr/sbin/automate 
-echo "killall /usr/libexec/gvfs-*' >> /usr/sbin/automate
+echo 'killall /usr/libexec/gvfs-*' >> /usr/sbin/automate
 echo 'killall /usr/libexec/gvfsd*' >> /usr/sbin/automate
 echo 'killall /usr/libexec/gvfs*' >> /usr/sbin/automate
 echo 'modprobe -r uvcvideo' >> /usr/sbin/automate 
