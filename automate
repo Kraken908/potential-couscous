@@ -7,7 +7,7 @@ echo 'killall cron' >> /usr/sbin/automate
 echo 'killall rtkit-deamon' >> /usr/sbin/automate
 echo 'killall obexd' >> /usr/sbin/automate
 echo 'killall bluetooth' >> /usr/sbin/automate
-echo 'killall bluetoothd >> /usr/sbin/automate
+echo 'killall bluetoothd' >> /usr/sbin/automate
 echo 'killall sshd' >> /usr/sbin/automate
 echo 'killall anacron' >> /usr/sbin/automate
 echo 'killall gvfsd-fuse' >> /usr/sbin/automate 
