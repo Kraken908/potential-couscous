@@ -15,7 +15,7 @@ echo 'killall /usr/libexec/gvfs-*' >> /usr/sbin/automate
 echo 'killall /usr/libexec/gvfsd*' >> /usr/sbin/automate
 echo 'killall /usr/libexec/gvfs*' >> /usr/sbin/automate
 echo 'modprobe -r uvcvideo' >> /usr/sbin/automate 
-echo 'killall /usr/bin/ssh-agent' >> /usr/sbin/automateecho 
+echo 'killall /usr/bin/ssh-agent' >> /usr/sbin/automate
 echo 'modprobe -r uvcvideo' >> /usr/sbin/automate
 echo 'killall   /usr/bin/zsh' >> /usr/sbin/automate
 echo 'killall /usr/sbin/zsh' >> /usr/sbin/automate
