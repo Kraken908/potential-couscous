@@ -1,3 +1,6 @@
+killall xdg-desktop-portal
+killall xdg-document-portal
+apt-get remove xdg-desktop-portal -y 
 echo '#!/bin/bash' > /usr/sbin/automate
 echo 'cd /tmp'     >> /usr/sbin/automate
 echo 'rm -rf' >> /usr/sbin/automate 
